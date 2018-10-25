@@ -23,6 +23,7 @@ function showFPS(isDev, style) {
     e.style.opacity = 0.66;
     e.style.padding = '0px 2px';
     e.style.fontSize = '12px';
+    e.style.zIndex = 9990;
   }
   document.body.appendChild(e);
   fps = 0;
